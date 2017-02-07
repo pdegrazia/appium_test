@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170206 23:35:07.358" generator="Robot 2.8.7 (Python 2.7.10 on darwin)">
+<suite source="/Users/paolodegrazia/Documents/workspace/appium_test/robot_appium_test.txt" id="s1" name="Robot Appium Test">
+<kw type="setup" name="Launch app">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="AppiumLibrary.Open Application">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=iOS</arg>
+<arg>platformVersion=10.2</arg>
+<arg>deviceName=iPhone 6</arg>
+<arg>app=/Users/paolodegrazia/Library/Developer/Xcode/DerivedData/UICatalog-filwusugxsudztdtsjeekkfabitv/Build/Products/Debug-iphonesimulator/UICatalog.app</arg>
+</arguments>
+<status status="PASS" endtime="20170206 23:40:30.370" starttime="20170206 23:35:07.449"></status>
+</kw>
+<status status="PASS" endtime="20170206 23:40:30.370" starttime="20170206 23:35:07.448"></status>
+</kw>
+<test id="s1-t1" name="Test One">
+<kw type="kw" name="AppiumLibrary.Page Should Contain Text">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Action Sheets</arg>
+</arguments>
+<msg timestamp="20170206 23:40:32.192" level="INFO">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;AppiumAUT&gt;
+    &lt;XCUIElementTypeApplication name="UICatalog" label="UICatalog" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0" x="0" y="0" width="375" height="667"&gt;
+        &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0" x="0" y="0" width="375" height="667"&gt;
+            &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0" x="0" y="0" width="375" height="667"&gt;
+            &lt;/XCUIElementTypeOther&gt;
+        &lt;/XCUIElementTypeOther&gt;
+        &lt;XCUIElementTypeWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1" x="0" y="52" width="375" height="563"&gt;
+            &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0" x="0" y="52" width="375" height="563"&gt;
+                &lt;XCUIElementTypeNavigationBar name="UICatalog" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/0" x="0" y="75" width="375" height="53"&gt;
+                    &lt;XCUIElementTypeStaticText name="UICatalog" label="UICatalog" value="UICatalog" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/0/0" x="141" y="85" width="93" height="32"&gt;
+                    &lt;/XCUIElementTypeStaticText&gt;
+                &lt;/XCUIElementTypeNavigationBar&gt;
+                &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1" x="0" y="52" width="375" height="563"&gt;
+                    &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0" x="0" y="52" width="375" height="563"&gt;
+                        &lt;XCUIElementTypeTable name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0" x="0" y="52" width="375" height="563"&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/0" x="0" y="127" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Action Sheets" label="Action Sheets" value="Action Sheets" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/0/0" x="18" y="134" width="119" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLActionSheetViewController" label="AAPLActionSheetViewController" value="AAPLActionSheetViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/0/1" x="18" y="157" width="200" height="16"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/1" x="0" y="178" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Activity Indicators" label="Activity Indicators" value="Activity Indicators" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/1/0" x="18" y="185" width="153" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLActivityIndicatorViewController" label="AAPLActivityIndicatorViewController" value="AAPLActivityIndicatorViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/1/1" x="18" y="208" width="225" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/2" x="0" y="230" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Alert Views" label="Alert Views" value="Alert Views" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/2/0" x="18" y="237" width="97" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLAlertViewController" label="AAPLAlertViewController" value="AAPLAlertViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/2/1" x="18" y="260" width="155" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/3" x="0" y="281" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Buttons" label="Buttons" value="Buttons" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/3/0" x="18" y="288" width="67" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLButtonViewController" label="AAPLButtonViewController" value="AAPLButtonViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/3/1" x="18" y="311" width="165" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/4" x="0" y="333" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Date Picker" label="Date Picker" value="Date Picker" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/4/0" x="18" y="340" width="99" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLDatePickerController" label="AAPLDatePickerController" value="AAPLDatePickerController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/4/1" x="18" y="363" width="162" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/5" x="0" y="385" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Image View" label="Image View" value="Image View" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/5/0" x="18" y="392" width="100" height="23"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLImageViewController" label="AAPLImageViewController" value="AAPLImageViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/5/1" x="18" y="414" width="162" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/6" x="0" y="436" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Page Control" label="Page Control" value="Page Control" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/6/0" x="18" y="443" width="111" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLPageControlViewController" label="AAPLPageControlViewController" value="AAPLPageControlViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/6/1" x="18" y="466" width="201" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/7" x="0" y="488" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Picker View" label="Picker View" value="Picker View" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/7/0" x="18" y="495" width="100" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLPickerViewController" label="AAPLPickerViewController" value="AAPLPickerViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/7/1" x="18" y="518" width="163" height="16"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/8" x="0" y="539" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Progress Views" label="Progress Views" value="Progress Views" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/8/0" x="18" y="546" width="132" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLProgressViewController" label="AAPLProgressViewController" value="AAPLProgressViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/8/1" x="18" y="569" width="179" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/9" x="0" y="591" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Segmented Controls" label="Segmented Controls" value="Segmented Controls" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/1/0/1/0/0/9/0" x="18" y="598" width="176" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLSegmentedControlViewController" label="AAPLSegmentedControlViewController" value="AAPLSegmentedControlViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/9/1" x="18" y="621" width="240" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/10" x="0" y="642" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Sliders" label="Sliders" value="Sliders" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/10/0" x="0" y="52" width="59" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLSliderViewController" label="AAPLSliderViewController" value="AAPLSliderViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/10/1" x="0" y="52" width="160" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/11" x="0" y="694" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Steppers" label="Steppers" value="Steppers" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/11/0" x="0" y="52" width="77" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLStepperViewController" label="AAPLStepperViewController" value="AAPLStepperViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/11/1" x="0" y="52" width="173" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/12" x="0" y="746" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Switches" label="Switches" value="Switches" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/12/0" x="0" y="52" width="78" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLSwitchViewController" label="AAPLSwitchViewController" value="AAPLSwitchViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/12/1" x="0" y="52" width="165" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/13" x="0" y="797" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Text Fields" label="Text Fields" value="Text Fields" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/13/0" x="0" y="52" width="91" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLTextFieldViewController" label="AAPLTextFieldViewController" value="AAPLTextFieldViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/13/1" x="0" y="52" width="179" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/14" x="0" y="849" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Text View" label="Text View" value="Text View" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/14/0" x="0" y="52" width="83" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLTextViewController" label="AAPLTextViewController" value="AAPLTextViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/14/1" x="0" y="52" width="149" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/15" x="0" y="900" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Web View" label="Web View" value="Web View" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/15/0" x="0" y="52" width="85" height="24"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                                &lt;XCUIElementTypeStaticText name="AAPLWebViewController" label="AAPLWebViewController" value="AAPLWebViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/15/1" x="0" y="52" width="150" height="17"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/16" x="0" y="952" width="375" height="52"&gt;
+                                &lt;XCUIElementTypeStaticText name="Search Bars" label="Search Bars" value="Search Bars" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/16/0" x="0" y="52" width="316" height="52"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                            &lt;XCUIElementTypeCell name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/17" x="0" y="1003" width="375" height="53"&gt;
+                                &lt;XCUIElementTypeStaticText name="Toolbars" label="Toolbars" value="Toolbars" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1/0/1/0/0/17/0" x="0" y="52" width="316" height="52"&gt;
+                                &lt;/XCUIElementTypeStaticText&gt;
+                            &lt;/XCUIElementTypeCell&gt;
+                        &lt;/XCUIElementTypeTable&gt;
+                    &lt;/XCUIElementTypeOther&gt;
+                &lt;/XCUIElementTypeOther&gt;
+            &lt;/XCUIElementTypeOther&gt;
+        &lt;/XCUIElementTypeWindow&gt;
+        &lt;XCUIElementTypeWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2" x="0" y="52" width="375" height="563"&gt;
+            &lt;XCUIElementTypeStatusBar name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0" x="0" y="52" width="375" height="24"&gt;
+                &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/2/0/0" x="0" y="52" width="375" height="24"&gt;
+                &lt;/XCUIElementTypeOther&gt;
+                &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1" x="0" y="52" width="375" height="24"&gt;
+                    &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/0" x="7" y="52" width="46" height="24"&gt;
+                    &lt;/XCUIElementTypeOther&gt;
+                    &lt;XCUIElementTypeOther name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" value="SSID" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/1" x="58" y="52" width="16" height="24"&gt;
+                    &lt;/XCUIElementTypeOther&gt;
+                    &lt;XCUIElementTypeOther name="11:40 PM" label="11:40 PM" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/2" x="158" y="52" width="64" height="24"&gt;
+                    &lt;/XCUIElementTypeOther&gt;
+                    &lt;XCUIElementTypeOther name="-100% battery power" label="-100% battery power" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/3" x="339" y="52" width="31" height="24"&gt;
+                    &lt;/XCUIElementTypeOther&gt;
+                &lt;/XCUIElementTypeOther&gt;
+            &lt;/XCUIElementTypeStatusBar&gt;
+        &lt;/XCUIElementTypeWindow&gt;
+    &lt;/XCUIElementTypeApplication&gt;
+&lt;/AppiumAUT&gt;</msg>
+<msg timestamp="20170206 23:40:32.192" level="INFO">Current page contains text 'Action Sheets'.</msg>
+<status status="PASS" endtime="20170206 23:40:32.192" starttime="20170206 23:40:30.372"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20170206 23:40:32.193" critical="yes" starttime="20170206 23:40:30.371"></status>
+</test>
+<kw type="teardown" name="AppiumLibrary.Close Application">
+<doc>Closes the current application.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20170206 23:40:50.929" starttime="20170206 23:40:32.194"></status>
+</kw>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20170206 23:40:50.930" starttime="20170206 23:35:07.358"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="Robot Appium Test">Robot Appium Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

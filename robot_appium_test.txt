@@ -5,7 +5,8 @@ Suite Teardown  Close Application
 
 *** Test Cases ***
 Test One
-  Page should contain text  Action Sheets  
+  Page should contain text  Action Sheets
+
 *** Keywords ***
 Launch app
-  Open Application  http://localhost:4723/wd/hub  platformName=iOS  platformVersion=9.3  deviceName=iPhone 5s  app=${CURDIR}/UICatalog.app
+  Open Application  http://localhost:4723/wd/hub  platformName=iOS  platformVersion=10.2  deviceName=iPhone 6  app=/Users/paolodegrazia/Library/Developer/Xcode/DerivedData/UICatalog-filwusugxsudztdtsjeekkfabitv/Build/Products/Debug-iphonesimulator/UICatalog.app
