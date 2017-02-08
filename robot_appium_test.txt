@@ -10,6 +10,5 @@ Test One
 
 *** Keywords ***
 Launch app
-  #Open Application  http://localhost:4723/wd/hub  platformName=iOS  platformVersion=10.2  deviceName=iPhone 6  app=./UICatalog.app
-  Open Application  http://localhost:4723/wd/hub  platformName=iOS  platformVersion=10.2  deviceName=iPhone 6  app=/Users/paolodegrazia/Documents/workspace/appium_test/UICatalog.app
+  Open Application  http://localhost:4723/wd/hub  platformName=iOS  platformVersion=10.2  deviceName=iPhone 6  app=${EXECDIR}/UICatalog.app
 
