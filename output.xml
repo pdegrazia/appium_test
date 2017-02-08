@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170206 23:35:07.358" generator="Robot 2.8.7 (Python 2.7.10 on darwin)">
+<robot generated="20170208 00:52:02.242" generator="Robot 2.8.7 (Python 2.7.10 on darwin)">
 <suite source="/Users/paolodegrazia/Documents/workspace/appium_test/robot_appium_test.txt" id="s1" name="Robot Appium Test">
 <kw type="setup" name="Launch app">
 <doc></doc>
@@ -12,19 +12,26 @@
 <arg>platformName=iOS</arg>
 <arg>platformVersion=10.2</arg>
 <arg>deviceName=iPhone 6</arg>
-<arg>app=/Users/paolodegrazia/Library/Developer/Xcode/DerivedData/UICatalog-filwusugxsudztdtsjeekkfabitv/Build/Products/Debug-iphonesimulator/UICatalog.app</arg>
+<arg>app=/Users/paolodegrazia/Documents/workspace/appium_test/UICatalog.app</arg>
 </arguments>
-<status status="PASS" endtime="20170206 23:40:30.370" starttime="20170206 23:35:07.449"></status>
+<status status="PASS" endtime="20170208 00:54:43.804" starttime="20170208 00:52:03.197"></status>
 </kw>
-<status status="PASS" endtime="20170206 23:40:30.370" starttime="20170206 23:35:07.448"></status>
+<status status="PASS" endtime="20170208 00:54:43.805" starttime="20170208 00:52:03.196"></status>
 </kw>
 <test id="s1-t1" name="Test One">
+<kw type="kw" name="AppiumLibrary.Capture Page Screenshot">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20170208 00:54:44.969" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170208 00:54:44.969" starttime="20170208 00:54:43.806"></status>
+</kw>
 <kw type="kw" name="AppiumLibrary.Page Should Contain Text">
 <doc>Verifies that current page contains `text`.</doc>
 <arguments>
 <arg>Action Sheets</arg>
 </arguments>
-<msg timestamp="20170206 23:40:32.192" level="INFO">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<msg timestamp="20170208 00:54:45.690" level="INFO">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;AppiumAUT&gt;
     &lt;XCUIElementTypeApplication name="UICatalog" label="UICatalog" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0" x="0" y="0" width="375" height="667"&gt;
         &lt;XCUIElementTypeOther name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0" x="0" y="0" width="375" height="667"&gt;
@@ -158,7 +165,7 @@
                     &lt;/XCUIElementTypeOther&gt;
                     &lt;XCUIElementTypeOther name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" value="SSID" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/1" x="58" y="52" width="16" height="24"&gt;
                     &lt;/XCUIElementTypeOther&gt;
-                    &lt;XCUIElementTypeOther name="11:40 PM" label="11:40 PM" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/2" x="158" y="52" width="64" height="24"&gt;
+                    &lt;XCUIElementTypeOther name="12:54 AM" label="12:54 AM" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/2" x="157" y="52" width="66" height="24"&gt;
                     &lt;/XCUIElementTypeOther&gt;
                     &lt;XCUIElementTypeOther name="-100% battery power" label="-100% battery power" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0/1/3" x="339" y="52" width="31" height="24"&gt;
                     &lt;/XCUIElementTypeOther&gt;
@@ -167,24 +174,24 @@
         &lt;/XCUIElementTypeWindow&gt;
     &lt;/XCUIElementTypeApplication&gt;
 &lt;/AppiumAUT&gt;</msg>
-<msg timestamp="20170206 23:40:32.192" level="INFO">Current page contains text 'Action Sheets'.</msg>
-<status status="PASS" endtime="20170206 23:40:32.192" starttime="20170206 23:40:30.372"></status>
+<msg timestamp="20170208 00:54:45.691" level="INFO">Current page contains text 'Action Sheets'.</msg>
+<status status="PASS" endtime="20170208 00:54:45.691" starttime="20170208 00:54:44.970"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20170206 23:40:32.193" critical="yes" starttime="20170206 23:40:30.371"></status>
+<status status="PASS" endtime="20170208 00:54:45.692" critical="yes" starttime="20170208 00:54:43.805"></status>
 </test>
 <kw type="teardown" name="AppiumLibrary.Close Application">
 <doc>Closes the current application.</doc>
 <arguments>
 </arguments>
-<status status="PASS" endtime="20170206 23:40:50.929" starttime="20170206 23:40:32.194"></status>
+<status status="PASS" endtime="20170208 00:55:04.089" starttime="20170208 00:54:45.693"></status>
 </kw>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20170206 23:40:50.930" starttime="20170206 23:35:07.358"></status>
+<status status="PASS" endtime="20170208 00:55:04.089" starttime="20170208 00:52:02.243"></status>
 </suite>
 <statistics>
 <total>
