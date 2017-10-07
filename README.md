@@ -1,5 +1,4 @@
-dependencies:
-
+Dependencies:
 appium server
  Command line:
   install node
@@ -9,5 +8,6 @@ appium server
  Download from appium website
 
 Python:
-sudo pip install Appium-Python-Client
+
+    sudo pip install Appium-Python-Client
 
