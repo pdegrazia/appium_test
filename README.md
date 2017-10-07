@@ -1,9 +1,14 @@
 Dependencies:
+
 appium server
- Command line:
-  install node
-  install appium server
-  type appium --> server starts
+
+Command line:
+
+install node
+
+install appium server
+
+type appium --> server starts
  
  Download from appium website
 
